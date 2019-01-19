@@ -38,7 +38,8 @@ gem 'hirb'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :production do
-  gem 'pg', '~> 1.1.4'
+  # gem 'pg', '~> 1.1.4'
+  gem 'sqlite3'
 end
 
 group :development, :test do
